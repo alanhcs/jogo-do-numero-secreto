@@ -66,17 +66,5 @@ function gerarNumeroAleatorio() {
 function limparCampo() {
     chute = document.querySelector('input');
     chute.value = '';
+    chute.focus();
 }
-
-// script anterior
-// let titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do número secreto';
-
-// let paragrafo = document.querySelector('p');
-// paragrafo.innerHTML = 'Escolha um número entre 1 e 10:';
-
-// function verificarChute() {
-//     let chute = document.querySelector('input').value;
-//     console.log(numeroSecreto)
-//     console.log(chute == numeroSecreto);
-// }
